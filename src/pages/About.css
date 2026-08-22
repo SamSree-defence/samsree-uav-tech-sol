@@ -1,0 +1,62 @@
+.about{
+
+    min-height:100vh;
+
+    background:#0b1220;
+
+    color:white;
+
+    padding:100px 8%;
+}
+
+.about h1{
+
+    text-align:center;
+
+    font-size:3rem;
+
+    margin-bottom:2rem;
+}
+
+.about>p{
+
+    max-width:900px;
+
+    margin:auto;
+    
+    margin-bottom: 2rem;
+
+    text-align:center;
+
+    color:#c4cdd8;
+
+    line-height:1.8;
+}
+
+.services-grid{
+
+    margin-top:4rem;
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(260px,1fr));
+
+    gap:2rem;
+}
+
+.service-card{
+
+    background:#182233;
+
+    padding:2rem;
+
+    border-radius:14px;
+
+    transition:.3s;
+}
+
+.service-card:hover{
+
+    transform:translateY(-8px);
+}
