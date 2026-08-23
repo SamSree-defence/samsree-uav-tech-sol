@@ -44,18 +44,20 @@ function ProductCard({
                         <span>{price}</span>
                     </div> */}
                 </div>
-
-                <span className={`status ${status.toLowerCase()}`}>
-                    {status}
-                </span>
-                <span className="price">
-                    {price}
-                </span>
-                <Link to ={`/Projects/${id}`}>
-                    <button>
-                        Details →
-                   </button>
-                </Link>
+                <div className="product-bottom">
+                    <span className={`status ${status.toLowerCase()}`}>
+                        {status}
+                    </span>
+                    <div className="product-price">
+                        <span>From</span>
+                        <strong>{price}</strong>
+                    </div>
+                    <Link to ={`/Projects/${id}`}>
+                        <button>
+                            Details →
+                    </button>
+                    </Link>
+                </div>
             </div>
 
         </div>
